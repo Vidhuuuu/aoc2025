@@ -1,5 +1,5 @@
 (* part 1 *)
-let [@warning "-32"] sum_invalid (lb, ub) =
+let sum_invalid (lb, ub) =
   let rec aux acc curr =
     if curr > ub then acc
     else

@@ -39,8 +39,8 @@ let sum_invalid2 (lb, ub) =
   aux 0 lb
 
 let () =
-  (* let file_name = "./input/day2/sample" in *)
-  let file_name = "./input/day2/real" in
+  (* let file_name = "../input/day2/sample" in *)
+  let file_name = "../input/day2/real" in
   let ranges =
     In_channel.with_open_text file_name (fun ic ->
         match In_channel.input_line ic with

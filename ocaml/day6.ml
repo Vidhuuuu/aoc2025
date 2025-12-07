@@ -72,8 +72,8 @@ let solve_problems2 problems ops =
   aux 0 ops problems
 
 let () =
-  (* let file_name = "./input/day6/sample" in *)
-  let file_name = "./input/day6/real" in
+  (* let file_name = "../input/day6/sample" in *)
+  let file_name = "../input/day6/real" in
   let lines, nums_as_list, ops_as_list =
     In_channel.with_open_text file_name (fun ic ->
         let rec loop lines nums ops =

@@ -1,2 +1,4 @@
 ocaml/_build/
-ocaml/input/
+# ocaml/input/
+misc/
+input/

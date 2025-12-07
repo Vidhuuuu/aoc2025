@@ -57,7 +57,7 @@ let () =
   (* let is_sample = true in *)
   let is_sample = false in
   let file_name, dim =
-    if is_sample then ("./input/day4/sample", 10) else ("./input/day4/real", 136)
+    if is_sample then ("../input/day4/sample", 10) else ("../input/day4/real", 136)
   in
   let grid = Array.make_matrix dim dim '$' in
   In_channel.with_open_text file_name (fun ic ->

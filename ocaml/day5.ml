@@ -27,8 +27,8 @@ let count_fresh_ids ranges =
   |> List.fold_left (fun acc (lb, ub) -> acc + (ub - lb + 1)) 0
 
 let () =
-  (* let file_name = "./input/day5/sample" in *)
-  let file_name = "./input/day5/real" in
+  (* let file_name = "../input/day5/sample" in *)
+  let file_name = "../input/day5/real" in
   let ranges, ids =
     In_channel.with_open_text file_name (fun ic ->
         let rec loop ranges ids =

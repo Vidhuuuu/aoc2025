@@ -40,8 +40,8 @@ let make_number digits =
   aux 0 digits
 
 let () =
-  (* let file_name = "./input/day3/sample" in *)
-  let file_name = "./input/day3/real" in
+  (* let file_name = "../input/day3/sample" in *)
+  let file_name = "../input/day3/real" in
   let banks =
     In_channel.with_open_text file_name (fun ic ->
         let rec loop acc =

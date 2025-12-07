@@ -21,8 +21,8 @@ let count_zeros (curr : int) (rot_type : char) (dist : int) : int =
   if dist < first_zero then 0 else 1 + ((dist - first_zero) / 100)
 
 let () =
-  (* let file_name = "./input/day1/sample" in *)
-  let file_name = "./input/day1/real" in
+  (* let file_name = "../input/day1/sample" in *)
+  let file_name = "../input/day1/real" in
   let count =
     In_channel.with_open_text file_name (fun ic ->
         let rec loop curr count =

@@ -8,7 +8,8 @@
          day7
          day8
          day9
-         day10)
+         day10
+         day11)
   (libraries glpk ppx_deriving.show)
   (preprocess (pps ppx_deriving.show))
   (flags (:standard -w -32)))
